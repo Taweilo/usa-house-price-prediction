@@ -1,14 +1,14 @@
-# ⚡⚡ House Price Prediction 🩺🩺
+# 🏠🏠 Sales Prediction from Media Spend 🔮🔮
 ![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
-![GitHub last commit](https://img.shields.io/github/last-commit/Taweilo/Diabetes_Prediction)
-![GitHub repo size](https://img.shields.io/github/repo-size/Taweilo/Diabetes_Prediction)
-![Type of ML](https://img.shields.io/badge/Type%20of%20ML-Binary%20Classification-red)
+![GitHub last commit](https://img.shields.io/github/last-commit/Taweilo/house_price_prediction)
+![GitHub repo size](https://img.shields.io/github/repo-size/Taweilo/house_price_prediction)
+![Type of ML](https://img.shields.io/badge/Type%20of%20ML-Regression%20-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 Badge [source](https://shields.io/)
 
  <img src="https://www.bouzaien.com/post/house-pricing-prediction/featured.png" width="1100" height="450">
-This project will follow the Business Analysis (BA) workflow to address diabetes diagnosis using data mining techniques. The business problem at hand is to create a machine-learning model that can accurately predict the likelihood of a patient having diabetes based on the provided features. This model can be utilized by healthcare professionals to assess the risk of diabetes in patients and provide appropriate medical interventions and advice.
+This project will follow the Business Analysis (BA) workflow to address diabetes diagnosis using data mining techniques. The business problem at hand is to create a machine-learning model that can accurately predict the house prices based on the provided features. This model can be utilized by real estate agents to evaluate the property value.
 
 ```
 ├── Image
