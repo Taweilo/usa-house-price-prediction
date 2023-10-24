@@ -7,7 +7,7 @@
 
 Badge [source](https://shields.io/)
 
- <img src="https://meddo.in/blog/wp-content/uploads/2020/09/onpage_Book-diagnostic-test-online-1024x575.jpeg" width="1100" height="450">
+ <img src="https://www.bouzaien.com/post/house-pricing-prediction/featured.png" width="1100" height="450">
 This project will follow the Business Analysis (BA) workflow to address diabetes diagnosis using data mining techniques. The business problem at hand is to create a machine-learning model that can accurately predict the likelihood of a patient having diabetes based on the provided features. This model can be utilized by healthcare professionals to assess the risk of diabetes in patients and provide appropriate medical interventions and advice.
 
 ```
