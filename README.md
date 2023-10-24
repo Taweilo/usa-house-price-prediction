@@ -27,10 +27,10 @@ This project will follow the Business Analysis (BA) workflow to address diabetes
 ```
 
 ## 1. Business Understanding
-The goal of this project is to develop a predictive model for diabetes based on various medical attributes of patients. The dataset contains information about patients, including their number of pregnancies, glucose level, blood pressure, skin thickness, insulin level, body mass index (BMI), diabetes pedigree function, age, and the final outcome indicating whether the patient has diabetes (1 for Yes and 0 for No).
+The goal of this project is to develop a predictive model for housing prices based on various property attributes, including area, number of bedrooms and bathrooms, etc.
 
 ## 2. Data Understanding 
-The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset (also please see Data_diabetes.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The pair plot demonstrated the relationship between variables. The distribution of the target class variable was shown.
+The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/housing-prices-dataset (also please see Housing data.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The pair plot demonstrated the relationship between variables. The distribution of the target class variable was shown.
 
 * Original Dataset
  <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.1%20Dataset.jpg" width="1000">
@@ -52,22 +52,13 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
 * Statistics
  <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.2%20Statistics.jpg" width="1000">
  
-* Pairplot
- <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.4%20Pairplot.png" width="1000">
-
-* Outcome Distribution
- <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.3%20Outcome%20distribution.jpg" width="1000">
- 
-| Outcome | Count | Note         |
-| ------- | ----- | ------------ |
-| **0**   | 500   | No Diabetes  |
-| **1**   | 268   | Diabetes     |
  
 ## 3. Data Preparation 
 1. Define variables (X and y) 
-2. Split the data into train and test datasets; 40% of test data <br>
+2. Split the data into train and test datasets; 30% of test data <br>
    train: 460 data<br>
    test:  308 data<br>
+3. Standardize the data
   
 ## 4. Modeling   
 Several machine learning models were included. Among all, KNN, Regression Tree, and Random Forest proceeded hyperparameter tuning for better performance:
