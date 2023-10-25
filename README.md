@@ -65,29 +65,20 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
 3. Standardize the data
   
 ## 4. Modeling   
-Several machine learning models were included. Among all, KNN, Regression Tree, and Random Forest proceeded hyperparameter tuning for better performance:
-* Logistic regression
-* Gaussian model
-* SVM
-* KNN
-* Regression Tree
-* Random Forest with Tuning
-  
+Several machine learning models were included:
+* Linear Regression
+* LASSO Regression
+* Ridge Regression
+* Elastic Net
+* Decision Tree Regression
+* Support Vector Regression
+* K-Nearest Neighbors Regression
+* Random Forest Regression
+* Gradient Boosting Regression (e.g., XGBoost)
+* Neural Network Regression
+
 ## 5. Evaluation
 <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/5.1%20Evaluation.jpg" width="500" >
+
  
-* Random Forest has the best performance. The best hyperparameter is: 
- 
-``` {'n_estimators': 200,
- 'min_samples_split': 10,
- 'min_samples_leaf': 4,
- 'max_features': 'log2',
- 'max_depth': 5,
- 'bootstrap': True}
-```
-* Out-of-sample Accuracy of Random Forest:  0.76; Out-of-sample AUC:  0.83; True Positive Rate: 54.1% and False Positive Rate 11.7%.
- <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/5.2%20RF%20Confusion%20Matrix.jpg" width="500" >
- 
-* Feature importance can be shown: Glucose in the blood is the most important feature. 
- <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/5.3%20Feature%20importance.jpg" width="500" >
- 
+## 6. Discussion
