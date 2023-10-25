@@ -39,19 +39,19 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
  
 | Name | Modeling Role | Measurement Level| Description |
 | ---- | ------------- | ---------------- | ---------- |
-| **Price** | target | int | To express the Number of pregnancies of the patient |
-| **Area** | input | int | To express the Glucose level in the blood of the patient|
-| **Bedrooms** | input | int | To express the Blood pressure measurement of the patient |
-| **Bathrooms** | input | int | To express the thickness of the skin of the patient |
-| **Stories** | input | int | To express the thickness of the skin of the patient |
-| **Mainroad** | input |  boolean | To express the Insulin level in the blood of the patient |
-| **Guestroom** | input |  boolean | To express the Body mass index of the patient |
-| **Basement** | input |  boolean  | To express the Diabetes percentage of the patient |
-| **Hotwaterheating** | input |  boolean | To express the age of the patient |
-| **Airconditioning** | input |  boolean | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
-| **Parking** | input | int | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
-| **Prefarea** | input |  boolean | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
-| **Furnishingstatus** | input |  boolean | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
+| **Price** | target | int | Price of the Houses |
+| **Area** | input | int | Area of a House |
+| **Bedrooms** | input | int | Number of House Bedrooms |
+| **Bathrooms** | input | int | Number of Bathrooms |
+| **Stories** | input | int | Number of House Stories |
+| **Mainroad** | input |  boolean | Weather connected to Main Road |
+| **Guestroom** | input |  boolean | Weather has a guest room |
+| **Basement** | input |  boolean  | Weather has a basement |
+| **Hotwaterheating** | input |  boolean | Weather has a hot water heater |
+| **Airconditioning** | input |  boolean | Weather has an airconditioning |
+| **Parking** | input | int | Number of House Parkings |
+| **Prefarea** | input |  boolean | Prefarea of the House |
+| **Furnishingstatus** | input |  boolean | Furnishing status of the House |
 
 * Statistics
  <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.2%20Statistics.jpg" width="1000">
