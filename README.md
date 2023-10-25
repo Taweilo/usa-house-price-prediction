@@ -39,15 +39,19 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
  
 | Name | Modeling Role | Measurement Level| Description |
 | ---- | ------------- | ---------------- | ---------- |
-| **Pregnancies** | input | int64 | To express the Number of pregnancies of the patient |
-| **Glucose** | input | int64 | To express the Glucose level in the blood of the patient|
-| **BloodPressure** | input | int64 | To express the Blood pressure measurement of the patient |
-| **SkinThickness** | input | int64 | To express the thickness of the skin of the patient |
-| **Insulin** | input | int64 | To express the Insulin level in the blood of the patient |
-| **BMI** | input | float64 | To express the Body mass index of the patient |
-| **DiabetesPedigreeFunction** | input | float64  | To express the Diabetes percentage of the patient |
-| **Age** | input | int64 | To express the age of the patient |
-| **Outcome** | target | binary | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
+| **Price** | target | int | To express the Number of pregnancies of the patient |
+| **Area** | input | int | To express the Glucose level in the blood of the patient|
+| **Bedrooms** | input | int | To express the Blood pressure measurement of the patient |
+| **Bathrooms** | input | int | To express the thickness of the skin of the patient |
+| **Stories** | input | int | To express the thickness of the skin of the patient |
+| **Mainroad** | input |  boolean | To express the Insulin level in the blood of the patient |
+| **Guestroom** | input |  boolean | To express the Body mass index of the patient |
+| **Basement** | input |  boolean  | To express the Diabetes percentage of the patient |
+| **Hotwaterheating** | input |  boolean | To express the age of the patient |
+| **Airconditioning** | input |  boolean | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
+| **Parking** | input | int | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
+| **Prefarea** | input |  boolean | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
+| **Furnishingstatus** | input |  boolean | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
 
 * Statistics
  <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.2%20Statistics.jpg" width="1000">
