@@ -11,14 +11,7 @@ Badge [source](https://shields.io/)
 This project will follow the Business Analysis (BA) workflow to address diabetes diagnosis using data mining techniques. The business problem at hand is to create a machine-learning model that can accurately predict the house prices based on the provided features. This model can be utilized by real estate agents to evaluate the property value.
 
 ```
-├── Image
-│   ├── 2.1 Dataset.jpg                           <- dataset image used in the README
-│   ├── 2.2 Statistics.jpg                        <- data statistics summary used in the README
-│   ├── 2.3 Outcome distribution.jpg              <- outcome distribution image used in the README
-│   ├── 2.4 Pairplot.jpg                          <- pairplot image used in the README
-│   ├── 5.1 Evaluation.jpg                        <- model summary table used in the README
-│   ├── 5.2 RF Confusion matrix.jpg               <- RF Confusion matrix used in the README
-│   ├── 5.3 Feature importance.jpg                <- RF feature importance used in the README                          
+├── Image                       
 │
 ├── Code_Diabetes_Prediction.ipynb                <- code
 ├── Data_diabetes.csv                             <- dataset
@@ -31,9 +24,6 @@ The goal of this project is to develop a predictive model for housing prices bas
 
 ## 2. Data Understanding 
 The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/housing-prices-dataset (also please see Housing data.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The pair plot demonstrated the relationship between variables. The distribution of the target class variable was shown.
-
-* Original Dataset
- <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.1%20Dataset.jpg" width="1000">
 
 * Data Dictionary
  
@@ -53,9 +43,7 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
 | **Prefarea** | input |  boolean | Prefarea of the House |
 | **Furnishingstatus** | input |  boolean | Furnishing status of the House |
 
-* Statistics
- <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.2%20Statistics.jpg" width="1000">
- 
+
  
 ## 3. Data Preparation 
 1. Define variables (X and y) 
@@ -78,7 +66,5 @@ Several machine learning models were included:
 * Neural Network Regression
 
 ## 5. Evaluation
-<img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/5.1%20Evaluation.jpg" width="500" >
+<img src="https://github.com/Taweilo/House_Price_Prediction/blob/main/Image/5.%20evaluation%20.png" width="500" >
 
- 
-## 6. Discussion
