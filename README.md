@@ -48,8 +48,8 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
 ## 3. Data Preparation 
 1. Define variables (X and y) 
 2. Split the data into train and test datasets; 30% of test data <br>
-   train: 460 data<br>
-   test:  308 data<br>
+   train: 381 data<br>
+   test:  164 data<br>
 3. Standardize the data
   
 ## 4. Modeling   
