@@ -13,8 +13,8 @@ This project will follow the Business Analysis (BA) workflow to address diabetes
 ```
 ├── Image                       
 │
-├── Code_Diabetes_Prediction.ipynb                <- code
-├── Data_diabetes.csv                             <- dataset
+├── Code_House_Price_Prediction.ipynb             <- code
+├── Housing data.csv                              <- dataset
 ├── LICENSE                                       <- MIT license
 ├── README.md                                     <- read me
 ```
