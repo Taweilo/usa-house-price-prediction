@@ -8,7 +8,7 @@
 Badge [source](https://shields.io/)
 
  <img src="https://www.bouzaien.com/post/house-pricing-prediction/featured.png" width="1100" height="450">
-This project will follow the Business Analysis (BA) workflow to address diabetes diagnosis using data mining techniques. The business problem at hand is to create a machine-learning model that can accurately predict the house prices based on the provided features. This model can be utilized by real estate agents to evaluate the property value.
+This project will follow the Business Analysis (BA) workflow to address house price prediction using data mining techniques. The business problem is creating a machine-learning model that can accurately predict house prices based on the provided features. Real estate agents can utilize this model to evaluate the property.
 
 ```
 ├── Image                       
