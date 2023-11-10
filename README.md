@@ -62,8 +62,6 @@ Several machine learning models were included:
 * Support Vector Regression
 * K-Nearest Neighbors Regression
 * Random Forest Regression
-* Gradient Boosting Regression (e.g., XGBoost)
-* Neural Network Regression
 
 ## 5. Evaluation
 <img src="https://github.com/Taweilo/House_Price_Prediction/blob/main/Image/5.%20evaluation%20.png" width="500" >
