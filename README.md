@@ -64,5 +64,5 @@ Several machine learning models were included:
 * Random Forest Regression
 
 ## 5. Evaluation
-<img src="https://github.com/Taweilo/House_Price_Prediction/blob/main/Image/5.%20evaluation%20.png" width="500" >
+<img src="https://github.com/Taweilo/House_Price_Prediction/blob/main/Image/5.%20Evaluation.png" width="500" >
 
