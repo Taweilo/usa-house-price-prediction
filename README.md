@@ -1,4 +1,4 @@
-# 🏠🏠 House Price Prediction 🔮🔮
+# 🏠🏠 USA House Price Prediction Via Linear Regression 🏷️🏷️
 ![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Taweilo/house_price_prediction)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Taweilo/house_price_prediction)
@@ -8,7 +8,7 @@
 Badge [source](https://shields.io/)
 
  <img src="https://www.bouzaien.com/post/house-pricing-prediction/featured.png" width="1100" height="450">
-This project will follow the Business Analysis (BA) workflow to address house price prediction using data mining techniques. The business problem is creating a machine-learning model that can accurately predict house prices based on the provided features. Real estate agents can utilize this model to evaluate the property.
+This project will follow the Business Analysis (BA) workflow to address house price prediction using linear regression techniques. The business problem is creating a regression model that can accurately predict house prices based on the provided features. Therefore, real estate agents can utilize this model to evaluate the property.
 
 ```
 ├── Image                       
@@ -23,7 +23,7 @@ This project will follow the Business Analysis (BA) workflow to address house pr
 The goal of this project is to develop a predictive model for housing prices based on various property attributes, including area, number of bedrooms and bathrooms, etc.
 
 ## 2. Data Understanding 
-The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/housing-prices-dataset (also please see Housing data.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The pair plot demonstrated the relationship between variables. The distribution of the target class variable was shown.
+The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/aariyan101/usa-housingcsv (also please see USA_Housing.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The pair plot demonstrated the relationship between variables. The distribution of the target class variable was shown.
 
 * Data Dictionary
  
@@ -55,13 +55,6 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
 ## 4. Modeling   
 Several machine learning models were included:
 * Linear Regression
-* LASSO Regression
-* Ridge Regression
-* Elastic Net
-* Decision Tree Regression
-* Support Vector Regression
-* K-Nearest Neighbors Regression
-* Random Forest Regression
 
 ## 5. Evaluation
 <img src="https://github.com/Taweilo/House_Price_Prediction/blob/main/Image/5.%20Evaluation.png" width="500" >
