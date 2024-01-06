@@ -32,33 +32,24 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
  
 | Name | Modeling Role | Measurement Level| Description |
 | ---- | ------------- | ---------------- | ---------- |
-| **Avg. Area Income** | input | int | Area of a House |
-| **Avg. Area House Age** | input | int | Number of House Bedrooms |
-| **Avg. Area Number of Rooms**| input | int | Number of Bathrooms |
-| **Stories** | input | int | Number of House Stories |
-| **Mainroad** | input |  boolean | Weather connected to Main Road |
-| **Guestroom** | input |  boolean | Weather has a guest room |
-| **Basement** | input |  boolean  | Weather has a basement |
-| **Hotwaterheating** | input |  boolean | Weather has a hot water heater |
-| **Airconditioning** | input |  boolean | Weather has an airconditioning |
-| **Parking** | input | int | Number of House Parkings |
-| **Prefarea** | input |  boolean | Prefarea of the House |
-| **Price** | target | int | Price of the Houses |
-| **Furnishingstatus** | input |  boolean | Furnishing status of the House |
-
-
+| **SquareFeet** | input | int | Square Feet of the house |
+| **Bedrooms** | input | int | Amount of bedrooms |
+| **Bathrooms**| input | int | Amount of bathrooms |
+| **Neighborhood** | input | obj | Area neighborhood where the house is |
+| **YearBuilt** | input |  int | Which year it was built |
+| **Price** | input |  boolean | The price of the home |
  
 ## 3. Data Preparation 
 1. Define variables (X and y) 
-2. Split the data into train and test datasets; 30% of test data <br>
-   train: 381 data<br>
-   test:  164 data<br>
-3. Standardize the data
+2. Split the data into train and test datasets; 40% of test data <br>
+   train: 30000 data<br>
+   test:  20000 data<br>
   
 ## 4. Modeling   
 Several machine learning models were included:
 * Linear Regression
 
 ## 5. Evaluation
-<img src="https://github.com/Taweilo/House_Price_Prediction/blob/main/Image/5.%20Evaluation.png" width="500" >
+MSE in test data: 2193848415.96
+R2 score: 0.57
 
