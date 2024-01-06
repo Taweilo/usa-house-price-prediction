@@ -16,7 +16,8 @@ This project will follow the Business Analysis (BA) workflow to address house pr
 ├── 1. README.md                                         <- read me
 ├── 2. Code_USA_House_Price_Prediction.ipynb             <- code
 ├── 3. USA_Housing.csv                                   <- dataset
-├── 4.LICENSE                                              <- MIT license
+├── 4. USA_Housing_report                                <- presentation
+├── 5. LICENSE                                           <- MIT license
 
 ```
 
