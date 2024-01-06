@@ -26,7 +26,7 @@ This project will follow the Business Analysis (BA) workflow to address house pr
 The goal of this project is to develop a predictive model for housing prices based on various property attributes, including area, number of bedrooms and bathrooms, etc.
 
 ## 2. Data Understanding 
-The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/muhammadbinimran/housing-price-prediction-data (also please see USA_Housing.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The pair plot demonstrated the relationship between variables. The distribution of the target class variable was shown.
+The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/muhammadbinimran/housing-price-prediction-data (also please see housing_price_dataset.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The pair plot demonstrated the relationship between variables. The distribution of the target class variable was shown.
 
 * Data Dictionary
  
