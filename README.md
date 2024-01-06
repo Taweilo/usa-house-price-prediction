@@ -31,10 +31,9 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
  
 | Name | Modeling Role | Measurement Level| Description |
 | ---- | ------------- | ---------------- | ---------- |
-| **Price** | target | int | Price of the Houses |
-| **Area** | input | int | Area of a House |
-| **Bedrooms** | input | int | Number of House Bedrooms |
-| **Bathrooms** | input | int | Number of Bathrooms |
+| **Avg. Area Income** | input | int | Area of a House |
+| **Avg. Area House Age** | input | int | Number of House Bedrooms |
+| **Avg. Area Number of Rooms**| input | int | Number of Bathrooms |
 | **Stories** | input | int | Number of House Stories |
 | **Mainroad** | input |  boolean | Weather connected to Main Road |
 | **Guestroom** | input |  boolean | Weather has a guest room |
@@ -43,6 +42,7 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
 | **Airconditioning** | input |  boolean | Weather has an airconditioning |
 | **Parking** | input | int | Number of House Parkings |
 | **Prefarea** | input |  boolean | Prefarea of the House |
+| **Price** | target | int | Price of the Houses |
 | **Furnishingstatus** | input |  boolean | Furnishing status of the House |
 
 
